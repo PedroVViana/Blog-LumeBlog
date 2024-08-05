@@ -1,0 +1,27 @@
+.link, .btnLogin {
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background: var(--textColor);
+    color: var(--bg);
+    transition: .5s;
+}
+
+.link:hover, .btnLogin:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.linkNav {
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: .5s;
+}
+
+.linkNav:hover {
+    background: var(--textColor);
+    color: var(--bg);
+    transition: .5s;
+}

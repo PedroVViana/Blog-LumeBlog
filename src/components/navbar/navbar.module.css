@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+}
+
+.logo {
+    flex: 1;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+    flex: 1;
+    font-size: 14px;
+}
+
+.linkNav {
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: .5s;
+}
+
+.linkNav:hover {
+    background: var(--textColor);
+    color: var(--bg);
+    transition: .5s;
+}
